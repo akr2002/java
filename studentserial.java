@@ -29,7 +29,7 @@ class studentserial {
 			oo.close();
 			System.out.println("Object written to file");
 		}
-		catch(Exception e) {System.out.println(e);}
+		catch(java.lang.Exception e) {System.out.println(e);}
 		
 		try {
 			FileInputStream fi = new FileInputStream("records.txt");
@@ -39,6 +39,6 @@ class studentserial {
 			oi.close();
 			System.out.println("Successful read operation");
 			s2.display();
-		} catch(Exception e) {System.out.println(e);}
+		} catch(java.lang.Exception e) {System.out.println(e);}
 	}
 }
